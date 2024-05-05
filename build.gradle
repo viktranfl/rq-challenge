@@ -18,10 +18,11 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     compileOnly 'org.projectlombok:lombok:1.18.30'
     annotationProcessor 'org.projectlombok:lombok:1.18.30'
-    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0'
-    implementation 'org.springframework.boot:spring-boot-starter-actuator:2.3.0.RELEASE'
-//    implementation 'io.springfox:springfox-swagger2:2.7.0'
-//    implementation 'io.springfox:springfox-swagger-ui:2.7.0'
+    implementation 'org.springdoc:springdoc-openapi-ui:1.7.0'
+    implementation 'io.springfox:springfox-swagger2:2.10.5'
+    implementation 'io.springfox:springfox-swagger-ui:2.9.2'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.15.2'
 }
 
 test {
